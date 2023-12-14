@@ -50,14 +50,16 @@ h5 {
 .hero {
 
     width: 70vw;
-    height: 60vh;
+    min-height: 60vh;
     padding: 5vw;
     margin: auto;
     margin-top: 5vh;
-    background: rgb(255,92,197);
-    background: linear-gradient(45deg, rgba(255,92,197,1) 35%, rgba(255,183,0,1) 100%);
-    color: rgb(255, 255, 255);
-
+    background: rgb(157, 255, 137);
+    color: rgb(0, 0, 0);
+    background-image: url("flowers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .hero h1 {
@@ -78,7 +80,7 @@ h5 {
 .hero hr {
 
     border-width: 3px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(0, 0, 0);
 
 }
 
@@ -99,7 +101,7 @@ h5 {
 
 .navbar a:hover {
 
-    color: rgb(255,92,197);
+    color: rgb(131, 236, 110);
 
 }
 
@@ -126,7 +128,7 @@ h5 {
 
 button {
 
-    background-color: rgb(255,92,197);
+    background-color: rgb(157, 255, 137);
     border-style: none;
     border-radius: 2vw;
     padding: 2vh;
@@ -138,16 +140,15 @@ button {
 
 button:hover {
 
-    background-color: rgb(255, 149, 0);
+    background-color: rgb(131, 236, 110);
     cursor:pointer;
 
 }
 
 .reader {
 
-    font-weight: bold;
     text-decoration: underline;
-    color: rgb(255,92,197);
+    color: rgb(0, 0, 0);
     padding: 5vh;
     transition: color 0.5s;
 
@@ -155,7 +156,7 @@ button:hover {
 
 .reader:hover {
 
-    color: rgb(255, 149, 0);
+    color: rgb(131, 236, 110);
     cursor:pointer;
 
 }
@@ -178,14 +179,14 @@ button:hover {
 .rng-button {
 
     font-weight: bold;
-    background-color: rgb(255,92,197);
+    background-color: rgb(157, 255, 137);
     transition: background-color 0.5s;
 
 }
 
 .rng-button:hover {
 
-    background-color: rgb(255, 149, 0);
+    background-color: rgb(131, 236, 110);
     cursor:pointer;
 
 }
