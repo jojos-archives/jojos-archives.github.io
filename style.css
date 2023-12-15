@@ -54,14 +54,14 @@ h5 {
     padding: 5vw;
     margin: auto;
     margin-top: 5vh;
-    background: rgb(157, 218, 104);
+    background: rgb(173, 230, 123);
     color: rgb(255, 255, 255);
 }
 
 .hero h1 {
 
     font-size: 500%;
-    margin: 5%;
+    margin-bottom: 5vh;
     word-break: break-all;
 
 }
@@ -79,6 +79,7 @@ h5 {
     border-color: rgb(255, 255, 255);
 
 }
+
 
 .navbar {
 
